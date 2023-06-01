@@ -2,7 +2,6 @@ import random
 n = int(input("Введите количество кустов: "))
 arr = [random.randint(1, n) for i in range(n)]
 print(arr)
-i = 0
 max = 0
 for i in range(1, len(arr) - 1):
    if max < arr[i - 1] + arr[i] + arr[i + 1]:
